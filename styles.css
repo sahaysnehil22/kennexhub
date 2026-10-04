@@ -355,3 +355,59 @@ button.shot{font-family:inherit}
   .band{padding:56px 28px}
   .proj-nav a.next{text-align:left}
 }
+
+/* ---------- human-crafted refinements (bizeus-inspired) ---------- */
+:root{
+  --accent-2:#93380f;
+  --line-soft:rgba(188,78,30,.22);
+  --wa-green:#25d366;
+}
+
+/* quiet language toggle */
+.lang-toggle{background:none;border:0;padding:6px 2px}
+.lang-toggle button{font-size:14px}
+.lang-toggle span{opacity:.45}
+
+/* eyebrow pill */
+.pill{display:inline-flex;align-items:center;gap:10px;border:1px solid var(--line-soft);background:#fff;border-radius:999px;padding:10px 20px;font-size:14px;font-weight:500;color:var(--ink);margin-bottom:24px;box-shadow:0 8px 20px -10px rgba(188,78,30,.35)}
+.pill .dot{width:8px;height:8px;border-radius:50%;background:var(--accent);flex:none}
+
+/* trust row */
+.trust-row{display:flex;gap:12px;flex-wrap:wrap;margin-top:38px}
+.trust-row .t{display:inline-flex;align-items:center;gap:9px;font-family:var(--font-mono);font-size:12.5px;letter-spacing:.05em;color:var(--muted);border:1px solid var(--line);background:var(--surface);border-radius:999px;padding:9px 17px}
+.trust-row .t i{width:8px;height:8px;border-radius:50%;background:var(--accent);flex:none}
+
+/* warm hairlines on cards */
+.price-card,.feature,.how-card,.team-card,.work-card,.fact{border-color:var(--line-soft)}
+
+/* pricing: solid gradient featured card + overlapping badge */
+.price-card.featured{background:linear-gradient(135deg,var(--accent),var(--accent-2));position:relative}
+.rec-badge{position:absolute;top:-17px;left:50%;transform:translateX(-50%);background:var(--ink);color:#fff;font-size:13px;font-weight:600;border-radius:999px;padding:9px 22px;white-space:nowrap;box-shadow:0 12px 26px -10px rgba(0,0,0,.4)}
+.check-list li::before{content:"✓";flex:none;width:25px;height:25px;border-radius:50%;background:rgba(188,78,30,.14);color:var(--accent);font-size:13px;font-weight:700;display:inline-flex;align-items:center;justify-content:center;margin-top:1px}
+.price-card.featured .check-list li::before{background:rgba(255,255,255,.22);color:#fff}
+.cta-note{font-size:13px;color:var(--muted);margin-top:16px}
+.price-card.featured .cta-note{color:rgba(255,248,240,.78)}
+
+/* faq: minimal divider rows */
+.faq details{padding:26px 0}
+.faq summary::after{width:36px;height:36px;border:1.5px solid var(--accent);border-radius:50%;display:inline-flex;align-items:center;justify-content:center;font-size:19px;flex:none;transition:background .18s ease,color .18s ease}
+.faq summary:hover{color:var(--accent)}
+.faq details[open] summary::after{background:var(--accent);color:#fff}
+.faq-sub{margin-top:18px;color:var(--muted);font-size:16px}
+
+/* integration badges */
+.integ-row{display:flex;gap:14px;flex-wrap:wrap;margin-top:34px;align-items:stretch}
+.integ{display:inline-flex;align-items:center;gap:12px;border:1px solid var(--line-soft);background:#fff;border-radius:16px;padding:10px 20px 10px 10px;font-weight:600;font-size:15px;box-shadow:0 10px 24px -14px rgba(23,19,16,.25)}
+.integ .ibadge{width:38px;height:38px;border-radius:11px;display:inline-flex;align-items:center;justify-content:center;flex:none;overflow:hidden}
+.integ .ibadge svg{width:22px;height:22px;display:block}
+.integ small{display:block;font-weight:400;color:var(--muted);font-size:12.5px;margin-top:1px}
+
+/* floating whatsapp */
+.wa-float{position:fixed;right:22px;bottom:22px;z-index:90;display:flex;align-items:center;background:var(--wa-green);border-radius:999px;padding:15px;text-decoration:none;box-shadow:0 16px 36px -10px rgba(37,211,102,.6);transition:transform .2s ease}
+.wa-float:hover{transform:translateY(-2px)}
+.wa-float-icon{width:30px;height:30px;display:block;flex:none}
+.wa-float-icon svg{width:100%;height:100%;display:block}
+.wa-float-label{max-width:0;overflow:hidden;white-space:nowrap;color:#fff;font-weight:600;font-size:15px;transition:max-width .32s ease,margin .32s ease}
+.wa-float.show .wa-float-label{max-width:280px;margin-right:12px}
+.wa-float-badge{position:absolute;top:-5px;right:-5px;width:23px;height:23px;border-radius:50%;background:#ff3b30;color:#fff;font-size:12px;font-weight:700;display:flex;align-items:center;justify-content:center;border:2px solid #fff}
+@media (max-width:760px){.wa-float{right:16px;bottom:16px;padding:13px}.wa-float.show .wa-float-label{max-width:200px}}

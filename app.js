@@ -77,6 +77,16 @@
   });
   if (window.location.hash) revealAll();
 
+  /* ---------- floating whatsapp: extend label after scroll ---------- */
+  var waFloat = document.getElementById("wa-float");
+  if (waFloat) {
+    var onScroll = function () {
+      waFloat.classList.toggle("show", window.scrollY > 420);
+    };
+    window.addEventListener("scroll", onScroll, { passive: true });
+    onScroll();
+  }
+
   /* ---------- video lightbox ---------- */
   var lightbox = document.getElementById("lightbox");
   var video = document.getElementById("lightbox-video");
