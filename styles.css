@@ -557,3 +557,5 @@ h2{font-size:clamp(34px,4vw,54px)}
 /* full-bleed section wash */
 .wash{position:relative;background:var(--wash);box-shadow:0 0 0 100vmax var(--wash);clip-path:inset(0 -100vmax)}
 .nav .btn-sm{padding:11px 22px;font-size:14px}
+.dash-wrap{position:relative;max-width:1020px;margin:64px auto 0}
+.dash{margin:0}
