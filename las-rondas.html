@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Las Rondas — Case study · Vulpis</title>
+<meta name="description" content="Las Rondas: a WhatsApp concierge for a Lima cevichería — reservations, menu and hours answered instantly, in Spanish. Built by Vulpis.">
+<link rel="icon" type="image/png" href="assets/img/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<noscript><style>.reveal{opacity:1 !important;transform:none !important}</style></noscript>
+</head>
+<body>
+
+<header class="nav">
+  <a class="brand" href="index.html" aria-label="Vulpis home">
+    <img src="assets/img/vulpis-logo.png" alt="Vulpis logo" width="36" height="36">
+    <span>Vulpis</span>
+  </a>
+  <nav class="links" aria-label="Sections">
+    <a href="vulpis.html" data-en="Product" data-es="Producto">Product</a>
+    <a href="index.html#work" data-en="Work" data-es="Proyectos">Work</a>
+    <a href="index.html#pricing" data-en="Pricing" data-es="Precios">Pricing</a>
+    <a href="index.html#contact" data-en="Contact" data-es="Contacto">Contact</a>
+  </nav>
+  <div class="nav-right">
+    <div class="lang-toggle" role="group" aria-label="Language">
+      <button type="button" data-lang="en" class="active">EN</button>
+      <span aria-hidden="true">/</span>
+      <button type="button" data-lang="es">ES</button>
+    </div>
+    <a class="btn btn-primary btn-sm" id="nav-wa" data-wa="1" data-wa-en="Hi Vulpis! I have a restaurant and want a WhatsApp bot like Las Rondas." data-wa-es="¡Hola Vulpis! Tengo un restaurante y quiero un bot de WhatsApp como el de Las Rondas." href="https://wa.me/51931768257" target="_blank" rel="noopener">
+      <span data-en="Build with us" data-es="Construye con nosotros">Build with us</span>
+    </a>
+    <button class="menu-btn" aria-label="Menu" aria-expanded="false"><span></span><span></span></button>
+  </div>
+</header>
+
+<main>
+  <!-- PAGE HERO -->
+  <section class="page-hero">
+    <p class="crumbs reveal"><a href="index.html" data-en="Home" data-es="Inicio">Home</a><span class="sep">/</span><a href="index.html#work" data-en="Work" data-es="Proyectos">Work</a><span class="sep">/</span><span>Las Rondas</span></p>
+    <p class="kicker reveal"><span class="dot"></span><span data-en="CASE STUDY — RESTAURANT AUTOMATION" data-es="CASO — AUTOMATIZACIÓN PARA RESTAURANTES">CASE STUDY — RESTAURANT AUTOMATION</span></p>
+    <h1 class="reveal"><span data-en="Reservations, " data-es="Reservas, ">Reservations, </span><em data-en="without picking up the phone." data-es="sin levantar el teléfono.">without picking up the phone.</em></h1>
+    <p class="lede reveal" data-en="Las Rondas is a WhatsApp concierge for a Lima cevichería — reservations, menu questions and opening hours, answered instantly and in Spanish, right inside the chat." data-es="Las Rondas es un concierge de WhatsApp para una cevichería limeña — reservas, preguntas de la carta y horarios, respondidos al instante y en español, dentro del chat.">Las Rondas is a WhatsApp concierge for a Lima cevichería — reservations, menu questions and opening hours, answered instantly and in Spanish, right inside the chat.</p>
+    <div class="facts reveal">
+      <div class="fact"><p class="flabel" data-en="CLIENT" data-es="CLIENTE">CLIENT</p><p class="fval" data-en="Las Rondas — cevichería, Lima" data-es="Las Rondas — cevichería, Lima">Las Rondas — cevichería, Lima</p></div>
+      <div class="fact"><p class="flabel" data-en="CHANNEL" data-es="CANAL">CHANNEL</p><p class="fval">WhatsApp</p></div>
+      <div class="fact"><p class="flabel" data-en="LANGUAGE" data-es="IDIOMA">LANGUAGE</p><p class="fval" data-en="Spanish-first" data-es="Español primero">Spanish-first</p></div>
+      <div class="fact"><p class="flabel" data-en="STATUS" data-es="ESTADO">STATUS</p><p class="fval" data-en="Built for a Lima restaurant" data-es="Hecho para un restaurante limeño">Built for a Lima restaurant</p></div>
+    </div>
+  </section>
+
+  <!-- PROBLEM -->
+  <section class="section">
+    <p class="kicker reveal"><span data-en="THE PROBLEM" data-es="EL PROBLEMA">THE PROBLEM</span></p>
+    <h2 class="reveal" data-en="Every missed call is an empty table." data-es="Cada llamada perdida es una mesa vacía.">Every missed call is an empty table.</h2>
+    <div class="pain-grid">
+      <div class="pain reveal">
+        <h3 data-en="Phones ring at the worst time" data-es="El teléfono suena en el peor momento">Phones ring at the worst time</h3>
+        <p data-en="Lunch rush, full house, hands covered in lime — that's exactly when reservation calls come in." data-es="Hora punta del almuerzo, local lleno, manos con limón — justo ahí entran las llamadas de reserva.">Lunch rush, full house, hands covered in lime — that's exactly when reservation calls come in.</p>
+      </div>
+      <div class="pain reveal">
+        <h3 data-en="Same questions, all day" data-es="Las mismas preguntas, todo el día">Same questions, all day</h3>
+        <p data-en">“¿A qué hora abren?” “¿Tienen ceviche mixto?” “¿Dónde quedan?” — <span data-en="answered a hundred times a week by a human." data-es="respondidas cien veces por semana por un humano.">answered a hundred times a week by a human.</span></p>
+      </div>
+      <div class="pain reveal">
+        <h3 data-en="No-shows and chaos" data-es="No-shows y caos">No-shows and chaos</h3>
+        <p data-en="Reservations scribbled on paper, confirmations never sent, tables held for ghosts." data-es="Reservas garabateadas en papel, confirmaciones nunca enviadas, mesas guardadas para fantasmas.">Reservations scribbled on paper, confirmations never sent, tables held for ghosts.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHAT IT DOES -->
+  <section class="section">
+    <p class="kicker reveal"><span data-en="WHAT IT DOES" data-es="QUÉ HACE">WHAT IT DOES</span></p>
+    <h2 class="reveal" data-en="A host that never sleeps." data-es="Un anfitrión que nunca duerme.">A host that never sleeps.</h2>
+    <div class="feature-grid">
+      <div class="feature reveal">
+        <p class="fnum">F—01</p>
+        <h3 data-en="Instant reservations" data-es="Reservas instantáneas">Instant reservations</h3>
+        <p data-en="Date, time, party size — confirmed in the chat in under a minute, with a confirmation the client can show at the door." data-es="Fecha, hora, número de personas — confirmado en el chat en menos de un minuto, con confirmación para mostrar en puerta.">Date, time, party size — confirmed in the chat in under a minute, with a confirmation the client can show at the door.</p>
+      </div>
+      <div class="feature reveal">
+        <p class="fnum">F—02</p>
+        <h3 data-en="Menu answers" data-es="Responde la carta">Menu answers</h3>
+        <p data-en="Knows the dishes, the prices, the recommendations. '¿Qué me recomiendas?' gets a real answer." data-es="Conoce los platos, los precios, las recomendaciones. '¿Qué me recomiendas?' recibe una respuesta real.">Knows the dishes, the prices, the recommendations. '¿Qué me recomiendas?' gets a real answer.</p>
+      </div>
+      <div class="feature reveal">
+        <p class="fnum">F—03</p>
+        <h3 data-en="Hours & location" data-es="Horarios y ubicación">Hours & location</h3>
+        <p data-en="Opening hours, address, how to get there — answered before the client has to ask twice." data-es="Horarios, dirección, cómo llegar — respondido antes de que el cliente pregunte dos veces.">Opening hours, address, how to get there — answered before the client has to ask twice.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- DEMO -->
+  <section class="section">
+    <div class="section-head reveal">
+      <div>
+        <p class="kicker"><span data-en="SEE IT WORK" data-es="MÍRALO EN ACCIÓN">SEE IT WORK</span></p>
+        <h2 data-en="A Friday night, handled." data-es="Un viernes en la noche, resuelto.">A Friday night, handled.</h2>
+      </div>
+      <p class="section-note" data-en="No apps to install, no calls missed — the whole reservation happens in WhatsApp." data-es="Sin apps que instalar, sin llamadas perdidas — toda la reserva ocurre en WhatsApp.">No apps to install, no calls missed — the whole reservation happens in WhatsApp.</p>
+    </div>
+    <div class="split">
+      <div class="split-media reveal">
+        <div class="phone" role="img" aria-label="Las Rondas reservation chat">
+          <div class="phone-screen">
+            <div class="wa-notch"></div>
+            <div class="wa-head">
+              <span class="wa-avatar">R</span>
+              <div><p class="wa-name">Las Rondas · Cevichería</p><p class="wa-status" data-en="online" data-es="en línea">online</p></div>
+            </div>
+            <div class="wa-chat">
+              <div class="bubble in">Hola, ¿tienen mesa para esta noche?</div>
+              <div class="bubble out">¡Hola! Sí — ¿para cuántas personas?</div>
+              <div class="bubble in">Para 2, a las 8pm</div>
+              <div class="bubble out">Listo ✓ Mesa para 2 a las 8:00pm. ¿Algo más?</div>
+              <div class="bubble in">¿Tienen ceviche mixto?</div>
+              <div class="bubble out">¡Claro! Ceviche mixto S/38 — es el favorito de la casa 🐟</div>
+            </div>
+            <div class="wa-input"><span class="field" data-en="Message" data-es="Mensaje">Message</span><span class="mic"></span></div>
+          </div>
+        </div>
+      </div>
+      <div class="reveal">
+        <p class="card-lede" data-en="Reservation confirmed and a dish sold — in six messages." data-es="Reserva confirmada y un plato vendido — en seis mensajes.">Reservation confirmed and a dish sold — in six messages.</p>
+        <p class="card-desc" data-en="This is the Vulpis pattern applied to restaurants: the bot handles the repetitive 90% — reservations, menu, hours — so the staff handles the tables, not the phone." data-es="Este es el patrón Vulpis aplicado a restaurantes: el bot maneja el 90% repetitivo — reservas, carta, horarios — para que el personal atienda las mesas, no el teléfono.">This is the Vulpis pattern applied to restaurants: the bot handles the repetitive 90% — reservations, menu, hours — so the staff handles the tables, not the phone.</p>
+        <a class="btn btn-primary" data-wa="1" data-wa-en="Hi Vulpis! I have a restaurant and want a WhatsApp bot." data-wa-es="¡Hola Vulpis! Tengo un restaurante y quiero un bot de WhatsApp." href="https://wa.me/51931768257" target="_blank" rel="noopener"><span data-en="I want this for my restaurant ↗" data-es="Quiero esto para mi restaurante ↗">I want this for my restaurant ↗</span></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA BAND -->
+  <section class="section" style="padding-top:0">
+    <div class="band reveal">
+      <h2><span data-en="Your restaurant, " data-es="Tu restaurante, ">Your restaurant, </span><em data-en="answering itself." data-es="respondiéndose solo.">answering itself.</em></h2>
+      <p data-en="Built on the Vulpis engine — Spanish-first, live in days. Tell us about your place." data-es="Construido sobre el motor Vulpis — español primero, en vivo en días. Cuéntanos de tu local.">Built on the Vulpis engine — Spanish-first, live in days. Tell us about your place.</p>
+      <div class="ctas">
+        <a class="btn btn-primary btn-lg" id="contact-wa" data-wa="1" data-wa-en="Hi Vulpis! I have a restaurant and want a WhatsApp bot like Las Rondas." data-wa-es="¡Hola Vulpis! Tengo un restaurante y quiero un bot de WhatsApp como el de Las Rondas." href="https://wa.me/51931768257" target="_blank" rel="noopener">
+          <span data-en="Chat on WhatsApp ↗" data-es="Hablar por WhatsApp ↗">Chat on WhatsApp ↗</span>
+        </a>
+      </div>
+    </div>
+    <nav class="proj-nav" aria-label="More projects">
+      <a href="protokol.html">
+        <span class="dir" data-en="← PREVIOUS" data-es="← ANTERIOR">← PREVIOUS</span>
+        <h4>PROTOKOL</h4>
+      </a>
+      <a class="next" href="audits.html">
+        <span class="dir" data-en="NEXT →" data-es="SIGUIENTE →">NEXT →</span>
+        <h4 data-en="Video Audits" data-es="Auditorías en video">Video Audits</h4>
+      </a>
+    </nav>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="footer-inner">
+    <a class="brand" href="index.html"><span>Vulpis</span></a>
+    <p>© 2026 Vulpis</p>
+    <p class="mono-dim">LIMA × INDIA</p>
+  </div>
+</footer>
+
+<div class="lightbox" id="lightbox" aria-hidden="true" role="dialog" aria-label="Video">
+  <div class="lightbox-backdrop" data-close></div>
+  <div class="lightbox-box">
+    <button class="lightbox-close" data-close aria-label="Close">✕</button>
+    <video id="lightbox-video" controls playsinline preload="none"></video>
+  </div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>

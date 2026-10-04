@@ -1,0 +1,251 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Vulpis AI — The AI closer for WhatsApp</title>
+<meta name="description" content="Vulpis is an AI sales agent for WhatsApp. Instant replies 24/7, lead qualification, meeting booking and payment links — in Spanish or English.">
+<link rel="icon" type="image/png" href="assets/img/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<noscript><style>.reveal{opacity:1 !important;transform:none !important}</style></noscript>
+</head>
+<body>
+
+<header class="nav">
+  <a class="brand" href="index.html" aria-label="Vulpis home">
+    <img src="assets/img/vulpis-logo.png" alt="Vulpis logo" width="36" height="36">
+    <span>Vulpis</span>
+  </a>
+  <nav class="links" aria-label="Sections">
+    <a href="vulpis.html" data-en="Product" data-es="Producto">Product</a>
+    <a href="index.html#work" data-en="Work" data-es="Proyectos">Work</a>
+    <a href="index.html#pricing" data-en="Pricing" data-es="Precios">Pricing</a>
+    <a href="index.html#contact" data-en="Contact" data-es="Contacto">Contact</a>
+  </nav>
+  <div class="nav-right">
+    <div class="lang-toggle" role="group" aria-label="Language">
+      <button type="button" data-lang="en" class="active">EN</button>
+      <span aria-hidden="true">/</span>
+      <button type="button" data-lang="es">ES</button>
+    </div>
+    <a class="btn btn-primary btn-sm" id="nav-wa" data-wa="1" data-wa-en="Hi Vulpis! I want Vulpis Esencial for my business." data-wa-es="¡Hola Vulpis! Quiero Vulpis Esencial para mi negocio." href="https://wa.me/51931768257" target="_blank" rel="noopener">
+      <span data-en="Get Vulpis" data-es="Quiero Vulpis">Get Vulpis</span>
+    </a>
+    <button class="menu-btn" aria-label="Menu" aria-expanded="false"><span></span><span></span></button>
+  </div>
+</header>
+
+<main>
+  <!-- PAGE HERO -->
+  <section class="page-hero">
+    <p class="crumbs reveal"><a href="index.html" data-en="Home" data-es="Inicio">Home</a><span class="sep">/</span><span>Vulpis AI</span></p>
+    <p class="kicker reveal"><span class="dot"></span><span data-en="THE FLAGSHIP — WHATSAPP AI AGENT" data-es="LA ESTRELLA — AGENTE IA EN WHATSAPP">THE FLAGSHIP — WHATSAPP AI AGENT</span></p>
+    <h1 class="reveal"><span data-en="Never miss " data-es="Nunca más pierdas ">Never miss </span><em data-en="another lead." data-es="un lead.">another lead.</em></h1>
+    <p class="lede reveal" data-en="Vulpis answers every WhatsApp message in seconds — qualifies the lead, books the meeting, sends the payment link. Nights, weekends, holidays. While you sleep." data-es="Vulpis responde cada mensaje de WhatsApp en segundos — califica el lead, agenda la reunión, envía el link de pago. Noches, fines de semana, feriados. Mientras duermes.">Vulpis answers every WhatsApp message in seconds — qualifies the lead, books the meeting, sends the payment link. Nights, weekends, holidays. While you sleep.</p>
+    <div class="ctas reveal" style="margin-bottom:0">
+      <a class="btn btn-primary" id="hero-wa" data-wa="1" data-wa-en="Hi Vulpis! I want Vulpis Esencial for my business." data-wa-es="¡Hola Vulpis! Quiero Vulpis Esencial para mi negocio." href="https://wa.me/51931768257" target="_blank" rel="noopener">
+        <span data-en="Get Vulpis — S/899 ↗" data-es="Quiero Vulpis — S/899 ↗">Get Vulpis — S/899 ↗</span>
+      </a>
+      <a class="btn btn-ghost" href="#how"><span data-en="See how it works ↓" data-es="Ver cómo funciona ↓">See how it works ↓</span></a>
+    </div>
+    <div class="facts reveal">
+      <div class="fact"><p class="flabel" data-en="STATUS" data-es="ESTADO">STATUS</p><p class="fval" data-en="Built · launching now" data-es="Listo · lanzando ahora">Built · launching now</p></div>
+      <div class="fact"><p class="flabel" data-en="STACK" data-es="TECNOLOGÍA">STACK</p><p class="fval">WhatsApp Cloud API · Python · Groq AI</p></div>
+      <div class="fact"><p class="flabel" data-en="LANGUAGE" data-es="IDIOMA">LANGUAGE</p><p class="fval" data-en="Spanish-native · English" data-es="Español nativo · Inglés">Spanish-native · English</p></div>
+      <div class="fact"><p class="flabel" data-en="SUPPORT" data-es="SOPORTE">SUPPORT</p><p class="fval" data-en="Mon–Sat · 8:00–22:00 Lima" data-es="Lun–Sáb · 8:00–22:00 Lima">Mon–Sat · 8:00–22:00 Lima</p></div>
+    </div>
+  </section>
+
+  <!-- PROBLEM -->
+  <section class="section">
+    <p class="kicker reveal"><span data-en="THE PROBLEM" data-es="EL PROBLEMA">THE PROBLEM</span></p>
+    <h2 class="reveal" data-en="Your leads message at 11pm. Nobody answers." data-es="Tus leads escriben a las 11pm. Nadie responde.">Your leads message at 11pm. Nobody answers.</h2>
+    <div class="pain-grid">
+      <div class="pain reveal">
+        <h3 data-en="Leads go cold in minutes" data-es="Los leads se enfrían en minutos">Leads go cold in minutes</h3>
+        <p data-en="78% of sales go to whoever replies first. If you answer tomorrow morning, they've already bought from someone else." data-es="El 78% de las ventas se las lleva quien responde primero. Si respondes mañana en la mañana, ya compraron en otro lado.">78% of sales go to whoever replies first. If you answer tomorrow morning, they've already bought from someone else.</p>
+      </div>
+      <div class="pain reveal">
+        <h3 data-en="Your team can't be everywhere" data-es="Tu equipo no puede estar en todo">Your team can't be everywhere</h3>
+        <p data-en="Nights, weekends, lunch breaks, holidays — the chat keeps ringing and nobody's there to pick it up." data-es="Noches, fines de semana, almuerzos, feriados — el chat sigue sonando y no hay nadie para atenderlo.">Nights, weekends, lunch breaks, holidays — the chat keeps ringing and nobody's there to pick it up.</p>
+      </div>
+      <div class="pain reveal">
+        <h3 data-en="Follow-ups fall through" data-es="Los seguimientos se pierden">Follow-ups fall through</h3>
+        <p data-en="Quotes sent and forgotten. Interested leads never reminded. Money left on the table, every single week." data-es="Cotizaciones enviadas y olvidadas. Interesados nunca contactados de nuevo. Dinero sobre la mesa, cada semana.">Quotes sent and forgotten. Interested leads never reminded. Money left on the table, every single week.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- HOW IT WORKS -->
+  <section id="how" class="section">
+    <p class="kicker reveal"><span data-en="HOW IT WORKS" data-es="CÓMO FUNCIONA">HOW IT WORKS</span></p>
+    <h2 class="reveal" data-en="Live in days, not months." data-es="En vivo en días, no meses.">Live in days, not months.</h2>
+    <div class="steps">
+      <div class="step reveal">
+        <p class="snum">01</p>
+        <h3 data-en="Connect" data-es="Conecta">Connect</h3>
+        <p data-en="We plug Vulpis into your WhatsApp Business number. Your clients keep writing to the same number they already know." data-es="Conectamos Vulpis a tu número de WhatsApp Business. Tus clientes siguen escribiendo al mismo número de siempre.">We plug Vulpis into your WhatsApp Business number. Your clients keep writing to the same number they already know.</p>
+      </div>
+      <div class="step reveal">
+        <p class="snum">02</p>
+        <h3 data-en="Teach" data-es="Enséñale">Teach</h3>
+        <p data-en="Vulpis learns your prices, services, schedules and FAQs — in your tone, in Spanish or English." data-es="Vulpis aprende tus precios, servicios, horarios y preguntas frecuentes — en tu tono, en español o inglés.">Vulpis learns your prices, services, schedules and FAQs — in your tone, in Spanish or English.</p>
+      </div>
+      <div class="step reveal">
+        <p class="snum">03</p>
+        <h3 data-en="Close" data-es="Cierra">Close</h3>
+        <p data-en="It replies instantly, qualifies, handles objections, books Meets and sends Yape payment links. You step in only for the custom deals." data-es="Responde al instante, califica, maneja objeciones, agenda Meets y envía links de pago Yape. Tú entras solo en los tratos personalizados.">It replies instantly, qualifies, handles objections, books Meets and sends Yape payment links. You step in only for the custom deals.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURES -->
+  <section class="section">
+    <p class="kicker reveal"><span data-en="WHAT IT DOES" data-es="QUÉ HACE">WHAT IT DOES</span></p>
+    <h2 class="reveal" data-en="A closer, not a chatbot." data-es="Un cerrador, no un chatbot.">A closer, not a chatbot.</h2>
+    <div class="feature-grid">
+      <div class="feature reveal">
+        <p class="fnum">F—01</p>
+        <h3 data-en="Instant replies, 24/7" data-es="Respuestas instantáneas, 24/7">Instant replies, 24/7</h3>
+        <p data-en="First reply in seconds — at 3pm or 3am. No lead ever waits." data-es="Primera respuesta en segundos — a las 3pm o 3am. Ningún lead espera jamás.">First reply in seconds — at 3pm or 3am. No lead ever waits.</p>
+      </div>
+      <div class="feature reveal">
+        <p class="fnum">F—02</p>
+        <h3 data-en="Lead qualification" data-es="Calificación de leads">Lead qualification</h3>
+        <p data-en="Asks the right questions, filters the curious from the serious, and only escalates buyers." data-es="Hace las preguntas correctas, filtra curiosos de compradores, y solo escala a los serios.">Asks the right questions, filters the curious from the serious, and only escalates buyers.</p>
+      </div>
+      <div class="feature reveal">
+        <p class="fnum">F—03</p>
+        <h3 data-en="Meeting booking" data-es="Agenda de reuniones">Meeting booking</h3>
+        <p data-en="Schedules Google Meet calls straight into your calendar — no back-and-forth." data-es="Agenda llamadas de Google Meet directo en tu calendario — sin idas y vueltas.">Schedules Google Meet calls straight into your calendar — no back-and-forth.</p>
+      </div>
+      <div class="feature reveal">
+        <p class="fnum">F—04</p>
+        <h3 data-en="Payment links" data-es="Links de pago">Payment links</h3>
+        <p data-en="Sends Yape payment links the moment the client says yes. Closes don't wait for office hours." data-es="Envía links de pago Yape en cuanto el cliente dice sí. Los cierres no esperan horario de oficina.">Sends Yape payment links the moment the client says yes. Closes don't wait for office hours.</p>
+      </div>
+      <div class="feature reveal">
+        <p class="fnum">F—05</p>
+        <h3 data-en="Spanish-native" data-es="Español nativo">Spanish-native</h3>
+        <p data-en="Writes like a Peruvian salesperson, not a translated robot. Slang, warmth, and all." data-es="Escribe como un vendedor peruano, no como un robot traducido. Jerga, calidez y todo.">Writes like a Peruvian salesperson, not a translated robot. Slang, warmth, and all.</p>
+      </div>
+      <div class="feature reveal">
+        <p class="fnum">F—06</p>
+        <h3 data-en="Human handoff" data-es="Paso a humano">Human handoff</h3>
+        <p data-en="Knows when to step aside. Complex or custom deal? It hands the chat to you, with full context." data-es="Sabe cuándo hacerse a un lado. ¿Trato complejo o personalizado? Te pasa el chat, con todo el contexto.">Knows when to step aside. Complex or custom deal? It hands the chat to you, with full context.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- DEMO -->
+  <section class="section">
+    <div class="section-head reveal">
+      <div>
+        <p class="kicker"><span data-en="SEE IT WORK" data-es="MÍRALO EN ACCIÓN">SEE IT WORK</span></p>
+        <h2 data-en="A real conversation." data-es="Una conversación real.">A real conversation.</h2>
+      </div>
+      <p class="section-note" data-en="This is the shape of every Vulpis chat: fast, warm, and pointed at the close." data-es="Así es cada chat de Vulpis: rápido, cálido y apuntando al cierre.">This is the shape of every Vulpis chat: fast, warm, and pointed at the close.</p>
+    </div>
+    <div class="split">
+      <div class="split-media reveal">
+        <div class="phone" role="img" aria-label="Vulpis demo conversation">
+          <div class="phone-screen">
+            <div class="wa-notch"></div>
+            <div class="wa-head">
+              <span class="wa-avatar">V</span>
+              <div><p class="wa-name">Vulpis · AI Closer</p><p class="wa-status" data-en="online" data-es="en línea">online</p></div>
+            </div>
+            <div class="wa-chat">
+              <div class="bubble in" data-en="How much for the full service?" data-es="¿Cuánto cuesta el servicio completo?">How much for the full service?</div>
+              <div class="bubble out" data-en="It's S/899 flat — setup included, no monthly fees on my side. What kind of business is it for?" data-es="Son S/899 flat — instalación incluida. ¿Para qué tipo de negocio sería?">It's S/899 flat — setup included, no monthly fees on my side. What kind of business is it for?</div>
+              <div class="bubble in" data-en="A dental clinic. We miss a lot of calls." data-es="Una clínica dental. Perdemos muchas llamadas.">A dental clinic. We miss a lot of calls.</div>
+              <div class="bubble out" data-en="Classic — clinics are perfect for this. I can book your appointments directly. Want a 15-min call tomorrow to see it live?" data-es="Clásico — las clínicas son perfectas para esto. Puedo agendar tus citas directo. ¿Quieres una llamada de 15 min mañana para verlo en vivo?">Classic — clinics are perfect for this. I can book your appointments directly. Want a 15-min call tomorrow to see it live?</div>
+              <div class="bubble in" data-en="Tomorrow at 11 works." data-es="Mañana a las 11 me funciona.">Tomorrow at 11 works.</div>
+              <div class="bubble out" data-en="Booked ✓ Meet link coming your way. Talk tomorrow!" data-es="Agendado ✓ Te llega el link del Meet. ¡Hablamos mañana!">Booked ✓ Meet link coming your way. Talk tomorrow!</div>
+            </div>
+            <div class="wa-input"><span class="field" data-en="Message" data-es="Mensaje">Message</span><span class="mic"></span></div>
+          </div>
+        </div>
+      </div>
+      <div class="reveal">
+        <p class="card-lede" data-en="From first message to booked meeting in six bubbles." data-es="Del primer mensaje a la reunión agendada en seis burbujas.">From first message to booked meeting in six bubbles.</p>
+        <p class="card-desc" data-en="No menus, no 'press 1 for sales'. Vulpis holds a real conversation — answers the price question, qualifies the business, and books the call before the lead cools down." data-es="Sin menús, sin 'marque 1 para ventas'. Vulpis sostiene una conversación real — responde el precio, califica el negocio y agenda la llamada antes de que el lead se enfríe.">No menus, no 'press 1 for sales'. Vulpis holds a real conversation — answers the price question, qualifies the business, and books the call before the lead cools down.</p>
+        <a class="btn btn-primary" data-wa="1" data-wa-en="Hi Vulpis! I want to see a live demo." data-wa-es="¡Hola Vulpis! Quiero ver una demo en vivo." href="https://wa.me/51931768257" target="_blank" rel="noopener"><span data-en="Ask for a live demo ↗" data-es="Pedir una demo en vivo ↗">Ask for a live demo ↗</span></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section">
+    <p class="kicker reveal"><span data-en="QUESTIONS" data-es="PREGUNTAS">QUESTIONS</span></p>
+    <h2 class="reveal" data-en="Asked all the time." data-es="Las de siempre.">Asked all the time.</h2>
+    <div class="faq reveal">
+      <details>
+        <summary data-en="Will it sound like a robot?" data-es="¿Va a sonar como un robot?">Will it sound like a robot?</summary>
+        <p data-en="No. Vulpis is trained on your tone and writes like your best salesperson — warm, direct, Peruvian Spanish included. Most clients can't tell." data-es="No. Vulpis se entrena con tu tono y escribe como tu mejor vendedor — cálido, directo, con español peruano incluido. La mayoría de clientes no nota la diferencia.">No. Vulpis is trained on your tone and writes like your best salesperson — warm, direct, Peruvian Spanish included. Most clients can't tell.</p>
+      </details>
+      <details>
+        <summary data-en="What if it doesn't know an answer?" data-es="¿Y si no sabe una respuesta?">What if it doesn't know an answer?</summary>
+        <p data-en="It says so — and hands the chat to you with the full context, instead of inventing an answer. No hallucinations to your customers." data-es="Lo dice — y te pasa el chat con todo el contexto, en vez de inventar una respuesta. Cero alucinaciones a tus clientes.">It says so — and hands the chat to you with the full context, instead of inventing an answer. No hallucinations to your customers.</p>
+      </details>
+      <details>
+        <summary data-en="Do I keep my WhatsApp number?" data-es="¿Mantengo mi número de WhatsApp?">Do I keep my WhatsApp number?</summary>
+        <p data-en="Yes. Vulpis connects to your existing WhatsApp Business line — your clients keep writing to the number they already know." data-es="Sí. Vulpis se conecta a tu línea actual de WhatsApp Business — tus clientes siguen escribiendo al número que ya conocen.">Yes. Vulpis connects to your existing WhatsApp Business line — your clients keep writing to the number they already know.</p>
+      </details>
+      <details>
+        <summary data-en="How fast can we launch?" data-es="¿Qué tan rápido salimos en vivo?">How fast can we launch?</summary>
+        <p data-en="Days. We connect your line, teach Vulpis your business, test it with you, and switch it on. Most launches take under a week." data-es="Días. Conectamos tu línea, le enseñamos tu negocio, lo probamos contigo y lo encendemos. La mayoría sale en vivo en menos de una semana.">Days. We connect your line, teach Vulpis your business, test it with you, and switch it on. Most launches take under a week.</p>
+      </details>
+      <details>
+        <summary data-en="What about custom or complex deals?" data-es="¿Y los tratos personalizados o complejos?">What about custom or complex deals?</summary>
+        <p data-en="That's the handoff. Vulpis qualifies and warms the lead, then passes you the chat with notes — you close the big ones yourself." data-es="Ahí entra el pase. Vulpis califica y prepara el lead, y te pasa el chat con notas — tú cierras los grandes.">That's the handoff. Vulpis qualifies and warms the lead, then passes you the chat with notes — you close the big ones yourself.</p>
+      </details>
+    </div>
+  </section>
+
+  <!-- CTA BAND -->
+  <section class="section" style="padding-top:0">
+    <div class="band reveal">
+      <h2><span data-en="Stop losing leads " data-es="Deja de perder leads ">Stop losing leads </span><em data-en="at 11pm." data-es="a las 11pm.">at 11pm.</em></h2>
+      <p data-en="Vulpis Esencial — S/899 starting price. Live in days. Selling while you sleep." data-es="Vulpis Esencial — S/899 precio inicial. En vivo en días. Vendiendo mientras duermes.">Vulpis Esencial — S/899 starting price. Live in days. Selling while you sleep.</p>
+      <div class="ctas">
+        <a class="btn btn-primary btn-lg" id="contact-wa" data-wa="1" data-wa-en="Hi Vulpis! I want Vulpis Esencial for my business." data-wa-es="¡Hola Vulpis! Quiero Vulpis Esencial para mi negocio." href="https://wa.me/51931768257" target="_blank" rel="noopener">
+          <span data-en="Get Vulpis on WhatsApp ↗" data-es="Quiero Vulpis por WhatsApp ↗">Get Vulpis on WhatsApp ↗</span>
+        </a>
+      </div>
+    </div>
+    <nav class="proj-nav" aria-label="More projects">
+      <a href="audits.html">
+        <span class="dir" data-en="← PREVIOUS" data-es="← ANTERIOR">← PREVIOUS</span>
+        <h4 data-en="Video Audits" data-es="Auditorías en video">Video Audits</h4>
+      </a>
+      <a class="next" href="protokol.html">
+        <span class="dir" data-en="NEXT →" data-es="SIGUIENTE →">NEXT →</span>
+        <h4>PROTOKOL</h4>
+      </a>
+    </nav>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="footer-inner">
+    <a class="brand" href="index.html"><span>Vulpis</span></a>
+    <p>© 2026 Vulpis</p>
+    <p class="mono-dim">LIMA × INDIA</p>
+  </div>
+</footer>
+
+<div class="lightbox" id="lightbox" aria-hidden="true" role="dialog" aria-label="Video">
+  <div class="lightbox-backdrop" data-close></div>
+  <div class="lightbox-box">
+    <button class="lightbox-close" data-close aria-label="Close">✕</button>
+    <video id="lightbox-video" controls playsinline preload="none"></video>
+  </div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>

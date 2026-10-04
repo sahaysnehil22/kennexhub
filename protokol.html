@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PROTOKOL — Case study · Vulpis</title>
+<meta name="description" content="PROTOKOL: an offline-first PWA that digitizes construction quality control for the GORE Ayacucho highway works. Built by Vulpis.">
+<link rel="icon" type="image/png" href="assets/img/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<noscript><style>.reveal{opacity:1 !important;transform:none !important}</style></noscript>
+</head>
+<body>
+
+<header class="nav">
+  <a class="brand" href="index.html" aria-label="Vulpis home">
+    <img src="assets/img/vulpis-logo.png" alt="Vulpis logo" width="36" height="36">
+    <span>Vulpis</span>
+  </a>
+  <nav class="links" aria-label="Sections">
+    <a href="vulpis.html" data-en="Product" data-es="Producto">Product</a>
+    <a href="index.html#work" data-en="Work" data-es="Proyectos">Work</a>
+    <a href="index.html#pricing" data-en="Pricing" data-es="Precios">Pricing</a>
+    <a href="index.html#contact" data-en="Contact" data-es="Contacto">Contact</a>
+  </nav>
+  <div class="nav-right">
+    <div class="lang-toggle" role="group" aria-label="Language">
+      <button type="button" data-lang="en" class="active">EN</button>
+      <span aria-hidden="true">/</span>
+      <button type="button" data-lang="es">ES</button>
+    </div>
+    <a class="btn btn-primary btn-sm" id="nav-wa" data-wa="1" data-wa-en="Hi Vulpis! I saw the PROTOKOL case study and want something similar." data-wa-es="¡Hola Vulpis! Vi el caso PROTOKOL y quiero algo similar." href="https://wa.me/51931768257" target="_blank" rel="noopener">
+      <span data-en="Build with us" data-es="Construye con nosotros">Build with us</span>
+    </a>
+    <button class="menu-btn" aria-label="Menu" aria-expanded="false"><span></span><span></span></button>
+  </div>
+</header>
+
+<main>
+  <!-- PAGE HERO -->
+  <section class="page-hero">
+    <p class="crumbs reveal"><a href="index.html" data-en="Home" data-es="Inicio">Home</a><span class="sep">/</span><a href="index.html#work" data-en="Work" data-es="Proyectos">Work</a><span class="sep">/</span><span>PROTOKOL</span></p>
+    <p class="kicker reveal"><span class="dot"></span><span data-en="CASE STUDY — CONSTRUCTION TECH" data-es="CASO — TECH DE CONSTRUCCIÓN">CASE STUDY — CONSTRUCTION TECH</span></p>
+    <h1 class="reveal"><span data-en="Quality control, " data-es="Control de calidad, ">Quality control, </span><em data-en="minus the paperwork." data-es="sin el papeleo.">minus the paperwork.</em></h1>
+    <p class="lede reveal" data-en="PROTOKOL digitizes field quality-control protocols for the GORE Ayacucho highway works — an offline-first PWA that works in the mountains, signs per box, and generates PDF dossiers." data-es="PROTOKOL digitaliza los protocolos de control de calidad en campo para la obra vial del GORE Ayacucho — una PWA offline-first que funciona en la sierra, firma por casilla y genera expedientes PDF.">PROTOKOL digitizes field quality-control protocols for the GORE Ayacucho highway works — an offline-first PWA that works in the mountains, signs per box, and generates PDF dossiers.</p>
+    <div class="facts reveal">
+      <div class="fact"><p class="flabel" data-en="CLIENT" data-es="CLIENTE">CLIENT</p><p class="fval" data-en="GORE Ayacucho — road project AY-728 / AY-729" data-es="GORE Ayacucho — proyecto vial AY-728 / AY-729">GORE Ayacucho — road project AY-728 / AY-729</p></div>
+      <div class="fact"><p class="flabel" data-en="STACK" data-es="TECNOLOGÍA">STACK</p><p class="fval">TypeScript · SQLite · Supabase · PDF engine</p></div>
+      <div class="fact"><p class="flabel" data-en="STATUS" data-es="ESTADO">STATUS</p><p class="fval" data-en="Live pilot in production" data-es="Piloto en vivo en producción">Live pilot in production</p></div>
+      <div class="fact"><p class="flabel" data-en="FIELD LEAD" data-es="LÍDER DE CAMPO">FIELD LEAD</p><p class="fval" data-en="Ing. David Valdez Ochoa — Quality Specialist" data-es="Ing. David Valdez Ochoa — Especialista de Calidad">Ing. David Valdez Ochoa — Quality Specialist</p></div>
+    </div>
+  </section>
+
+  <!-- PROBLEM -->
+  <section class="section">
+    <p class="kicker reveal"><span data-en="THE PROBLEM" data-es="EL PROBLEMA">THE PROBLEM</span></p>
+    <h2 class="reveal" data-en="Paper protocols die in the field." data-es="Los protocolos en papel mueren en campo.">Paper protocols die in the field.</h2>
+    <div class="pain-grid">
+      <div class="pain reveal">
+        <h3 data-en="Lost paperwork" data-es="Papeleo perdido">Lost paperwork</h3>
+        <p data-en="QC protocols lived on loose sheets — rained on, misplaced, impossible to audit weeks later." data-es="Los protocolos vivían en hojas sueltas — mojadas, extraviadas, imposibles de auditar semanas después.">QC protocols lived on loose sheets — rained on, misplaced, impossible to audit weeks later.</p>
+      </div>
+      <div class="pain reveal">
+        <h3 data-en="No traceability" data-es="Cero trazabilidad">No traceability</h3>
+        <p data-en="Who signed what, when, where? On paper, that question has no reliable answer." data-es="¿Quién firmó qué, cuándo, dónde? En papel, esa pregunta no tiene respuesta confiable.">Who signed what, when, where? On paper, that question has no reliable answer.</p>
+      </div>
+      <div class="pain reveal">
+        <h3 data-en="Zero connectivity" data-es="Cero conectividad">Zero connectivity</h3>
+        <p data-en="Mountain work sites have no signal. Any tool that needs the internet is a tool that doesn't work." data-es="Los frentes de obra en sierra no tienen señal. Cualquier herramienta que necesite internet es una herramienta que no funciona.">Mountain work sites have no signal. Any tool that needs the internet is a tool that doesn't work.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHAT WE BUILT -->
+  <section class="section">
+    <p class="kicker reveal"><span data-en="WHAT WE BUILT" data-es="QUÉ CONSTRUIMOS">WHAT WE BUILT</span></p>
+    <h2 class="reveal" data-en="A QC platform that works offline." data-es="Una plataforma QC que funciona offline.">A QC platform that works offline.</h2>
+    <div class="feature-grid">
+      <div class="feature reveal">
+        <p class="fnum">F—01</p>
+        <h3 data-en="Offline-first PWA" data-es="PWA offline-first">Offline-first PWA</h3>
+        <p data-en="Full functionality with zero connectivity. Drafts, photos and signatures queue locally and sync when signal returns." data-es="Funcionalidad total sin conectividad. Borradores, fotos y firmas se guardan localmente y sincronizan al volver la señal.">Full functionality with zero connectivity. Drafts, photos and signatures queue locally and sync when signal returns.</p>
+      </div>
+      <div class="feature reveal">
+        <p class="fnum">F—02</p>
+        <h3 data-en="Digital protocols" data-es="Protocolos digitales">Digital protocols</h3>
+        <p data-en="Topographic verification, steel reinforcement and more — the paper forms, rebuilt as structured digital checklists." data-es="Verificación topográfica, acero de refuerzo y más — los formularios en papel, reconstruidos como listas digitales estructuradas.">Topographic verification, steel reinforcement and more — the paper forms, rebuilt as structured digital checklists.</p>
+      </div>
+      <div class="feature reveal">
+        <p class="fnum">F—03</p>
+        <h3 data-en="Photo evidence + GPS" data-es="Evidencia fotográfica + GPS">Photo evidence + GPS</h3>
+        <p data-en="Every protocol carries stamped photos with GPS provenance — proof of where and when it happened." data-es="Cada protocolo lleva fotos selladas con procedencia GPS — prueba de dónde y cuándo ocurrió.">Every protocol carries stamped photos with GPS provenance — proof of where and when it happened.</p>
+      </div>
+      <div class="feature reveal">
+        <p class="fnum">F—04</p>
+        <h3 data-en="PDF dossiers" data-es="Expedientes PDF">PDF dossiers</h3>
+        <p data-en="One-tap generation of the full protocol dossier — formatted to mirror the official paper structure." data-es="Generación en un toque del expediente completo — con el formato de la estructura oficial en papel.">One-tap generation of the full protocol dossier — formatted to mirror the official paper structure.</p>
+      </div>
+      <div class="feature reveal">
+        <p class="fnum">F—05</p>
+        <h3 data-en="Two-tier PIN auth" data-es="Autenticación PIN en dos niveles">Two-tier PIN auth</h3>
+        <p data-en="One company-controlled project PIN for access, personal PINs for signing. Per-box signatures, rate-limited and lockout-protected." data-es="Un PIN de proyecto controlado por la empresa para el acceso, PINs personales para firmar. Firmas por casilla, con límite de intentos y bloqueo.">One company-controlled project PIN for access, personal PINs for signing. Per-box signatures, rate-limited and lockout-protected.</p>
+      </div>
+      <div class="feature reveal">
+        <p class="fnum">F—06</p>
+        <h3 data-en="Cloud sync" data-es="Sincronización en la nube">Cloud sync</h3>
+        <p data-en="Supabase-backed sync with idempotent submits — replay a submission and get the same result, never a duplicate." data-es="Sincronización con Supabase y envíos idempotentes — reintenta un envío y obtén el mismo resultado, nunca un duplicado.">Supabase-backed sync with idempotent submits — replay a submission and get the same result, never a duplicate.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- VIDEO + DEMO -->
+  <section class="section">
+    <div class="section-head reveal">
+      <div>
+        <p class="kicker"><span data-en="SEE IT" data-es="MÍRALO">SEE IT</span></p>
+        <h2 data-en="Watch it work." data-es="Míralo funcionar.">Watch it work.</h2>
+      </div>
+      <p class="section-note" data-en="A full walkthrough of the live build — project setup, protocol flow, signing and PDF export." data-es="Un recorrido completo del sistema en vivo — creación de proyecto, flujo de protocolos, firmas y exportación PDF.">A full walkthrough of the live build — project setup, protocol flow, signing and PDF export.</p>
+    </div>
+    <div class="reveal" style="max-width:960px">
+      <button class="shot play-btn" data-video="https://cdn.jsdelivr.net/gh/sahaysnehil22/kennexhub@main/assets/video/protokol-guia-completa.mp4" aria-label="Play PROTOKOL walkthrough">
+        <img src="assets/img/poster-protokol.jpg" alt="PROTOKOL walkthrough video">
+        <span class="play-ring" aria-hidden="true"></span>
+      </button>
+      <p class="shot-cap" data-en="PROTOKOL — FULL WALKTHROUGH · LIVE BUILD" data-es="PROTOKOL — RECORRIDO COMPLETO · EN VIVO">PROTOKOL — FULL WALKTHROUGH · LIVE BUILD</p>
+    </div>
+    <div class="reveal" style="margin-top:36px">
+      <a class="btn btn-primary" href="https://protokol-1.onrender.com/" target="_blank" rel="noopener"><span data-en="Open the live demo ↗" data-es="Abrir la demo en vivo ↗">Open the live demo ↗</span></a>
+    </div>
+  </section>
+
+  <!-- CTA BAND -->
+  <section class="section" style="padding-top:0">
+    <div class="band reveal">
+      <h2><span data-en="Need software " data-es="¿Necesitas software ">Need software </span><em data-en="this solid?" data-es="así de sólido?">this solid?</em></h2>
+      <p data-en="PROTOKOL is what a custom build looks like with us: scoped tight, engineered deep, shipped live. Tell us what you're building." data-es="PROTOKOL es lo que un proyecto a medida se ve con nosotros: alcance preciso, ingeniería profunda, lanzamiento en vivo. Cuéntanos qué estás construyendo.">PROTOKOL is what a custom build looks like with us: scoped tight, engineered deep, shipped live. Tell us what you're building.</p>
+      <div class="ctas">
+        <a class="btn btn-primary btn-lg" id="contact-wa" data-wa="1" data-wa-en="Hi Vulpis! I saw the PROTOKOL case study and want a custom build." data-wa-es="¡Hola Vulpis! Vi el caso PROTOKOL y quiero un proyecto a medida." href="https://wa.me/51931768257" target="_blank" rel="noopener">
+          <span data-en="Ask for a quote ↗" data-es="Pedir cotización ↗">Ask for a quote ↗</span>
+        </a>
+      </div>
+    </div>
+    <nav class="proj-nav" aria-label="More projects">
+      <a href="vulpis.html">
+        <span class="dir" data-en="← PREVIOUS" data-es="← ANTERIOR">← PREVIOUS</span>
+        <h4>Vulpis AI</h4>
+      </a>
+      <a class="next" href="las-rondas.html">
+        <span class="dir" data-en="NEXT →" data-es="SIGUIENTE →">NEXT →</span>
+        <h4>Las Rondas</h4>
+      </a>
+    </nav>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="footer-inner">
+    <a class="brand" href="index.html"><span>Vulpis</span></a>
+    <p>© 2026 Vulpis</p>
+    <p class="mono-dim">LIMA × INDIA</p>
+  </div>
+</footer>
+
+<div class="lightbox" id="lightbox" aria-hidden="true" role="dialog" aria-label="Video">
+  <div class="lightbox-backdrop" data-close></div>
+  <div class="lightbox-box">
+    <button class="lightbox-close" data-close aria-label="Close">✕</button>
+    <video id="lightbox-video" controls playsinline preload="none"></video>
+  </div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>

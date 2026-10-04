@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>KennexHub — Software Studio · Lima × India</title>
-<meta name="description" content="KennexHub is a two-man software studio. WhatsApp automation, production web platforms, and no-mercy business audits. Designed in Lima, engineered in India.">
+<title>Vulpis — WhatsApp AI that closes · Lima × India</title>
+<meta name="description" content="Vulpis builds AI sales agents for WhatsApp, production-grade web platforms, and no-mercy video audits. Designed in Lima, engineered in India.">
 <link rel="icon" type="image/png" href="assets/img/favicon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,14 +15,14 @@
 <body>
 
 <header class="nav">
-  <a class="brand" href="#top" aria-label="KennexHub home">
-    <img src="assets/img/kennexhub-logo.png" alt="KennexHub logo" width="36" height="36">
-    <span>KennexHub</span>
+  <a class="brand" href="index.html" aria-label="Vulpis home">
+    <img src="assets/img/vulpis-logo.png" alt="Vulpis logo" width="36" height="36">
+    <span>Vulpis</span>
   </a>
   <nav class="links" aria-label="Sections">
+    <a href="vulpis.html" data-en="Product" data-es="Producto">Product</a>
     <a href="#work" data-en="Work" data-es="Proyectos">Work</a>
-    <a href="#story" data-en="Story" data-es="Historia">Story</a>
-    <a href="#team" data-en="Team" data-es="Equipo">Team</a>
+    <a href="#pricing" data-en="Pricing" data-es="Precios">Pricing</a>
     <a href="#contact" data-en="Contact" data-es="Contacto">Contact</a>
   </nav>
   <div class="nav-right">
@@ -31,7 +31,7 @@
       <span aria-hidden="true">/</span>
       <button type="button" data-lang="es">ES</button>
     </div>
-    <a class="btn btn-primary btn-sm" id="nav-wa" href="https://wa.me/51931768257?text=Hi%20KennexHub!%20I%20saw%20your%20portfolio%20and%20I%27d%20like%20to%20talk%20about%20a%20project." target="_blank" rel="noopener">
+    <a class="btn btn-primary btn-sm" id="nav-wa" data-wa="1" href="https://wa.me/51931768257" target="_blank" rel="noopener">
       <span data-en="Chat on WhatsApp" data-es="Hablar por WhatsApp">Chat on WhatsApp</span>
     </a>
     <button class="menu-btn" aria-label="Menu" aria-expanded="false"><span></span><span></span></button>
@@ -42,155 +42,178 @@
 
   <!-- HERO -->
   <section class="hero">
-    <p class="kicker reveal"><span class="dot"></span><span data-en="SOFTWARE STUDIO — LIMA × INDIA" data-es="ESTUDIO DE SOFTWARE — LIMA × INDIA">SOFTWARE STUDIO — LIMA × INDIA</span></p>
-    <h1 class="reveal"><span data-en="We build software that " data-es="Creamos software que ">We build software that </span><em data-en="closes deals." data-es="cierra negocios.">closes deals.</em></h1>
-    <p class="lede reveal" data-en="WhatsApp automation, production web platforms, and no-mercy business audits. Designed in Lima, engineered in India — shipped worldwide." data-es="Automatización en WhatsApp, plataformas web en producción y auditorías sin piedad. Diseñado en Lima, programado en India — lanzado al mundo.">WhatsApp automation, production web platforms, and no-mercy business audits. Designed in Lima, engineered in India — shipped worldwide.</p>
+    <p class="kicker reveal"><span class="dot"></span><span data-en="WHATSAPP AI · LIMA × INDIA" data-es="IA EN WHATSAPP · LIMA × INDIA">WHATSAPP AI · LIMA × INDIA</span></p>
+    <h1 class="reveal"><span data-en="Your best closer " data-es="Tu mejor cerrador ">Your best closer </span><em data-en="lives in WhatsApp." data-es="vive en WhatsApp.">lives in WhatsApp.</em></h1>
+    <p class="lede reveal" data-en="Vulpis is an AI sales agent for WhatsApp — it answers in seconds, qualifies your leads, books meetings and sends payment links. Plus production-grade web platforms and no-mercy video audits." data-es="Vulpis es un agente de ventas con IA para WhatsApp — responde en segundos, califica tus leads, agenda reuniones y envía links de pago. Además de plataformas web en producción y auditorías en video sin piedad.">Vulpis is an AI sales agent for WhatsApp — it answers in seconds, qualifies your leads, books meetings and sends payment links. Plus production-grade web platforms and no-mercy video audits.</p>
     <div class="ctas reveal">
-      <a class="btn btn-primary" id="hero-wa" href="https://wa.me/51931768257?text=Hi%20KennexHub!%20I%20saw%20your%20portfolio%20and%20I%27d%20like%20to%20talk%20about%20a%20project." target="_blank" rel="noopener">
+      <a class="btn btn-primary" href="vulpis.html">
+        <span data-en="Meet Vulpis →" data-es="Conoce a Vulpis →">Meet Vulpis →</span>
+      </a>
+      <a class="btn btn-ghost" id="hero-wa" data-wa="1" href="https://wa.me/51931768257" target="_blank" rel="noopener">
         <span data-en="Chat on WhatsApp ↗" data-es="Hablar por WhatsApp ↗">Chat on WhatsApp ↗</span>
       </a>
-      <a class="btn btn-ghost" href="#work"><span data-en="See the work ↓" data-es="Ver proyectos ↓">See the work ↓</span></a>
     </div>
     <div class="stats reveal">
-      <div class="stat"><strong>04</strong><span data-en="CLIENT BUILDS IN PRODUCTION" data-es="PROYECTOS EN PRODUCCIÓN">CLIENT BUILDS IN PRODUCTION</span></div>
+      <div class="stat"><strong>04</strong><span data-en="PROJECTS SHIPPED" data-es="PROYECTOS LANZADOS">PROJECTS SHIPPED</span></div>
       <div class="stat"><strong>02</strong><span data-en="COUNTRIES — ONE TEAM" data-es="PAÍSES — UN EQUIPO">COUNTRIES — ONE TEAM</span></div>
-      <div class="stat"><strong>01</strong><span data-en="RULE — IT SHIPS OR IT DOESN'T COUNT" data-es="REGLA — SE LANZA O NO CUENTA">RULE — IT SHIPS OR IT DOESN'T COUNT</span></div>
+      <div class="stat"><strong>24/7</strong><span data-en="AI COVERAGE ON WHATSAPP" data-es="COBERTURA IA EN WHATSAPP">AI COVERAGE ON WHATSAPP</span></div>
     </div>
   </section>
 
   <!-- MARQUEE -->
   <div class="marquee" aria-hidden="true">
     <div class="marquee-track">
-      <span>WHATSAPP AUTOMATION&nbsp;&nbsp;•&nbsp;&nbsp;WEB PLATFORMS&nbsp;&nbsp;•&nbsp;&nbsp;BUSINESS AUDITS&nbsp;&nbsp;•&nbsp;&nbsp;QA &amp; FIXES&nbsp;&nbsp;•&nbsp;&nbsp;</span>
-      <span>WHATSAPP AUTOMATION&nbsp;&nbsp;•&nbsp;&nbsp;WEB PLATFORMS&nbsp;&nbsp;•&nbsp;&nbsp;BUSINESS AUDITS&nbsp;&nbsp;•&nbsp;&nbsp;QA &amp; FIXES&nbsp;&nbsp;•&nbsp;&nbsp;</span>
+      <span>WHATSAPP AI AGENTS&nbsp;&nbsp;•&nbsp;&nbsp;WEB PLATFORMS&nbsp;&nbsp;•&nbsp;&nbsp;VIDEO AUDITS&nbsp;&nbsp;•&nbsp;&nbsp;QA &amp; FIXES&nbsp;&nbsp;•&nbsp;&nbsp;</span>
+      <span>WHATSAPP AI AGENTS&nbsp;&nbsp;•&nbsp;&nbsp;WEB PLATFORMS&nbsp;&nbsp;•&nbsp;&nbsp;VIDEO AUDITS&nbsp;&nbsp;•&nbsp;&nbsp;QA &amp; FIXES&nbsp;&nbsp;•&nbsp;&nbsp;</span>
     </div>
   </div>
 
-  <!-- WORK -->
-  <section id="work" class="section work">
+  <!-- FLAGSHIP -->
+  <section id="product" class="section">
     <div class="section-head reveal">
       <div>
-        <p class="kicker"><span data-en="01 — SELECTED WORK" data-es="01 — PROYECTOS">01 — SELECTED WORK</span></p>
-        <h2 data-en="Proof, not promises." data-es="Pruebas, no promesas.">Proof, not promises.</h2>
+        <p class="kicker"><span data-en="01 — THE FLAGSHIP" data-es="01 — LA ESTRELLA">01 — THE FLAGSHIP</span></p>
+        <h2><span data-en="Vulpis, the " data-es="Vulpis, el ">Vulpis, the </span><em data-en="AI closer." data-es="cerrador IA.">AI closer.</em></h2>
       </div>
-      <p class="section-note" data-en="Every project below is live, demoable, or on video. No mockups of imaginary clients." data-es="Cada proyecto aquí está en vivo, se puede probar o está en video. Sin maquetas de clientes imaginarios.">Every project below is live, demoable, or on video. No mockups of imaginary clients.</p>
+      <p class="section-note" data-en="One product, one job: turn WhatsApp chats into paying customers." data-es="Un producto, un trabajo: convertir chats de WhatsApp en clientes que pagan.">One product, one job: turn WhatsApp chats into paying customers.</p>
     </div>
-
-    <!-- 01 PROTOKOL -->
-<article class="card reveal">
-  <div class="card-media">
-    <button class="shot play-btn" data-video="assets/video/protokol-guia-completa.mp4" aria-label="Play PROTOKOL walkthrough">
-      <img src="assets/img/poster-protokol.jpg" alt="PROTOKOL — project portal">
-      <span class="play-ring" aria-hidden="true"></span>
-    </button>
-    <p class="shot-cap" data-en="PROTOKOL — PROJECT PORTAL · LIVE BUILD" data-es="PROTOKOL — PORTAL DE PROYECTOS · EN VIVO">PROTOKOL — PROJECT PORTAL · LIVE BUILD</p>
-  </div>
-  <div class="card-body">
-    <p class="card-index">01 / 04</p>
-    <h3>PROTOKOL</h3>
-    <p class="card-lede" data-en="Quality control for a Peruvian road project." data-es="Control de calidad para un proyecto vial peruano.">Quality control for a Peruvian road project.</p>
-    <p class="card-desc" data-en="An offline-first PWA that digitizes field QC protocols for the GORE Ayacucho highway works — atomic submits, per-box signing, PDF dossiers, cloud sync." data-es="Una PWA offline-first que digitaliza los protocolos de control de calidad en campo para la obra vial del GORE Ayacucho — envíos atómicos, firmas por casilla, expedientes PDF y sincronización en la nube.">An offline-first PWA that digitizes field QC protocols for the GORE Ayacucho highway works — atomic submits, per-box signing, PDF dossiers, cloud sync.</p>
-    <p class="card-meta">PWA · TYPESCRIPT · SUPABASE · PDF ENGINE</p>
-    <p class="card-status"><span class="dot"></span><span data-en="LIVE IN PRODUCTION" data-es="EN PRODUCCIÓN">LIVE IN PRODUCTION</span></p>
-    <div class="card-links">
-      <button class="textlink play-btn" data-video="assets/video/protokol-guia-completa.mp4"><span data-en="Watch the walkthrough →" data-es="Ver el recorrido →">Watch the walkthrough →</span></button>
-      <a class="textlink" href="https://protokol-1.onrender.com/" target="_blank" rel="noopener"><span data-en="Live demo ↗" data-es="Demo en vivo ↗">Live demo ↗</span></a>
-    </div>
-  </div>
-</article>
-
-
-    <!-- 02 VULPIS -->
-<article class="card flip reveal">
-  <div class="card-media">
-    <div class="phone" role="img" aria-label="Vulpis WhatsApp chat concept">
-      <div class="phone-screen">
-        <div class="wa-notch"></div>
-        <div class="wa-head">
-          <span class="wa-avatar">V</span>
-          <div><p class="wa-name">Vulpis · AI Closer</p><p class="wa-status" data-en="online" data-es="en línea">online</p></div>
+    <div class="split">
+      <div class="split-media reveal">
+        <div class="phone" role="img" aria-label="Vulpis WhatsApp chat">
+          <div class="phone-screen">
+            <div class="wa-notch"></div>
+            <div class="wa-head">
+              <span class="wa-avatar">V</span>
+              <div><p class="wa-name">Vulpis · AI Closer</p><p class="wa-status" data-en="online" data-es="en línea">online</p></div>
+            </div>
+            <div class="wa-chat">
+              <div class="bubble in" data-en="Hi! Do you take appointments on weekends?" data-es="¡Hola! ¿Atienden fines de semana?">Hi! Do you take appointments on weekends?</div>
+              <div class="bubble out" data-en="Hi! Yes — we're open Sat 9am–6pm. Want me to book you in?" data-es="¡Hola! Sí — abrimos sáb de 9am a 6pm. ¿Te reservo un espacio?">Hi! Yes — we're open Sat 9am–6pm. Want me to book you in?</div>
+              <div class="bubble in" data-en="Yes please, Saturday morning." data-es="Sí por favor, el sábado en la mañana.">Yes please, Saturday morning.</div>
+              <div class="bubble out" data-en="Done ✓ Sat 10:30am. I'll send the payment link to confirm." data-es="Listo ✓ Sáb 10:30am. Te envío el link de pago para confirmar.">Done ✓ Sat 10:30am. I'll send the payment link to confirm.</div>
+            </div>
+            <div class="wa-input"><span class="field" data-en="Message" data-es="Mensaje">Message</span><span class="mic"></span></div>
+          </div>
         </div>
-        <div class="wa-chat">
-          <div class="bubble in" data-en="Hi! I'm looking for someone to build us a website." data-es="¡Hola! Busco a alguien que nos haga un sitio web.">Hi! I'm looking for someone to build us a website.</div>
-          <div class="bubble out" data-en="Great — we build sites, WhatsApp bots and run business audits. What's the goal?" data-es="Genial — hacemos sitios, bots de WhatsApp y auditorías. ¿Cuál es el objetivo?">Great — we build sites, WhatsApp bots and run business audits. What's the goal?</div>
-          <div class="bubble in" data-en="We need more customers from WhatsApp." data-es="Necesitamos más clientes por WhatsApp.">We need more customers from WhatsApp.</div>
-          <div class="bubble out" data-en="Perfect — that's exactly what I do. Want a free audit of your current setup?" data-es="Perfecto — a eso me dedico. ¿Quieres una auditoría gratis de tu negocio?">Perfect — that's exactly what I do. Want a free audit of your current setup?</div>
-        </div>
-        <div class="wa-input"><span class="field" data-en="Message" data-es="Mensaje">Message</span><span class="mic"></span></div>
+      </div>
+      <div class="reveal">
+        <p class="card-lede" data-en="Every message answered in seconds — nights, weekends, holidays." data-es="Cada mensaje respondido en segundos — noches, fines de semana, feriados.">Every message answered in seconds — nights, weekends, holidays.</p>
+        <p class="card-desc" data-en="Vulpis plugs into your WhatsApp Business line, learns your prices and FAQs, and works the chat like your best salesperson: qualifies, handles objections, books, and collects." data-es="Vulpis se conecta a tu línea de WhatsApp Business, aprende tus precios y preguntas frecuentes, y trabaja el chat como tu mejor vendedor: califica, responde objeciones, agenda y cobra.">Vulpis plugs into your WhatsApp Business line, learns your prices and FAQs, and works the chat like your best salesperson: qualifies, handles objections, books, and collects.</p>
+        <ul class="check-list">
+          <li data-en="Replies in seconds, 24/7" data-es="Responde en segundos, 24/7">Replies in seconds, 24/7</li>
+          <li data-en="Qualifies leads before you lift a finger" data-es="Califica leads antes de que muevas un dedo">Qualifies leads before you lift a finger</li>
+          <li data-en="Books meetings straight to your calendar" data-es="Agenda reuniones directo en tu calendario">Books meetings straight to your calendar</li>
+          <li data-en="Sends payment links automatically" data-es="Envía links de pago automáticamente">Sends payment links automatically</li>
+        </ul>
+        <a class="btn btn-primary" href="vulpis.html"><span data-en="See the full product →" data-es="Ver el producto completo →">See the full product →</span></a>
       </div>
     </div>
-    <p class="shot-cap" data-en="VULPIS — LIVE CHAT CONCEPT" data-es="VULPIS — CONCEPTO DE CHAT EN VIVO">VULPIS — LIVE CHAT CONCEPT</p>
-  </div>
-  <div class="card-body">
-    <p class="card-index">02 / 04</p>
-    <h3>VULPIS</h3>
-    <p class="card-lede" data-en="An AI closer that lives in WhatsApp." data-es="Un cerrador con IA que vive en WhatsApp.">An AI closer that lives in WhatsApp.</p>
-    <p class="card-desc" data-en="An autonomous sales agent for agencies — it qualifies leads, handles objections, sends payment links and books meetings. Humans step in only for the custom deals." data-es="Un agente de ventas autónomo para agencias — califica leads, responde objeciones, envía links de pago y agenda reuniones. Los humanos solo entran en los tratos personalizados.">An autonomous sales agent for agencies — it qualifies leads, handles objections, sends payment links and books meetings. Humans step in only for the custom deals.</p>
-    <p class="card-meta">WHATSAPP CLOUD API · PYTHON · GROQ AI</p>
-    <p class="card-status"><span class="dot"></span><span data-en="BUILT · LAUNCH IN PROGRESS" data-es="CONSTRUIDO · LANZAMIENTO EN CURSO">BUILT · LAUNCH IN PROGRESS</span></p>
-  </div>
-</article>
+  </section>
 
+  <!-- WORK -->
+  <section id="work" class="section">
+    <div class="section-head reveal">
+      <div>
+        <p class="kicker"><span data-en="02 — SELECTED WORK" data-es="02 — PROYECTOS">02 — SELECTED WORK</span></p>
+        <h2><span data-en="Proof, " data-es="Pruebas, ">Proof, </span><em data-en="not promises." data-es="no promesas.">not promises.</em></h2>
+      </div>
+      <p class="section-note" data-en="Four builds, four pages. Open each one for the full story." data-es="Cuatro proyectos, cuatro páginas. Abre cada una para la historia completa.">Four builds, four pages. Open each one for the full story.</p>
+    </div>
+    <div class="work-grid">
+      <a class="work-card reveal" href="vulpis.html">
+        <div class="wc-media darkbg"><img src="assets/img/vulpis-logo.png" alt="Vulpis fox logo" loading="lazy"></div>
+        <div class="wc-body">
+          <p class="wc-tag" data-en="FLAGSHIP · WHATSAPP AI" data-es="ESTRELLA · IA EN WHATSAPP">FLAGSHIP · WHATSAPP AI</p>
+          <h3>Vulpis AI</h3>
+          <p data-en="The AI closer: instant replies, lead qualification, bookings and payment links — on your WhatsApp line." data-es="El cerrador IA: respuestas instantáneas, calificación de leads, reservas y links de pago — en tu línea de WhatsApp.">The AI closer: instant replies, lead qualification, bookings and payment links — on your WhatsApp line.</p>
+          <span class="go" data-en="Open the product page →" data-es="Abrir la página del producto →">Open the product page →</span>
+        </div>
+      </a>
+      <a class="work-card reveal" href="protokol.html">
+        <div class="wc-media"><img src="assets/img/poster-protokol.jpg" alt="PROTOKOL project portal" loading="lazy"></div>
+        <div class="wc-body">
+          <p class="wc-tag" data-en="CASE STUDY · CONSTRUCTION TECH" data-es="CASO · TECH DE CONSTRUCCIÓN">CASE STUDY · CONSTRUCTION TECH</p>
+          <h3>PROTOKOL</h3>
+          <p data-en="Quality control for a Peruvian road project — offline-first PWA, PDF dossiers, cloud sync." data-es="Control de calidad para un proyecto vial peruano — PWA offline, expedientes PDF, sincronización en la nube.">Quality control for a Peruvian road project — offline-first PWA, PDF dossiers, cloud sync.</p>
+          <span class="go" data-en="Read the case study →" data-es="Leer el caso →">Read the case study →</span>
+        </div>
+      </a>
+      <a class="work-card reveal" href="las-rondas.html">
+        <div class="wc-media"><img src="assets/img/tile-las-rondas.jpg" alt="Las Rondas cevichería" loading="lazy"></div>
+        <div class="wc-body">
+          <p class="wc-tag" data-en="CASE STUDY · RESTAURANT" data-es="CASO · RESTAURANTE">CASE STUDY · RESTAURANT</p>
+          <h3>Las Rondas</h3>
+          <p data-en="A WhatsApp concierge for a Lima cevichería — reservations, menu and hours, in Spanish." data-es="Un concierge de WhatsApp para una cevichería limeña — reservas, carta y horarios, en español.">A WhatsApp concierge for a Lima cevichería — reservations, menu and hours, in Spanish.</p>
+          <span class="go" data-en="Read the case study →" data-es="Leer el caso →">Read the case study →</span>
+        </div>
+      </a>
+      <a class="work-card reveal" href="audits.html">
+        <div class="wc-media"><img src="assets/img/poster-audit.jpg" alt="Video audit sample" loading="lazy"></div>
+        <div class="wc-body">
+          <p class="wc-tag" data-en="SERVICE · QA" data-es="SERVICIO · QA">SERVICE · QA</p>
+          <h3 data-en="Video Audits" data-es="Auditorías en video">Video Audits</h3>
+          <p data-en="87-second video teardowns that show exactly what's broken on your site — and what to fix first." data-es="Videos de 87 segundos que muestran exactamente qué está roto en tu sitio — y qué arreglar primero.">87-second video teardowns that show exactly what's broken on your site — and what to fix first.</p>
+          <span class="go" data-en="See how audits work →" data-es="Ver cómo funcionan →">See how audits work →</span>
+        </div>
+      </a>
+    </div>
+  </section>
 
-    <!-- 03 LAS RONDAS -->
-<article class="card reveal">
-  <div class="card-media">
-    <div class="phone" role="img" aria-label="Las Rondas WhatsApp reservation chat">
-      <div class="phone-screen">
-        <div class="wa-notch"></div>
-        <div class="wa-head">
-          <span class="wa-avatar">R</span>
-          <div><p class="wa-name">Las Rondas · Cevichería</p><p class="wa-status" data-en="online" data-es="en línea">online</p></div>
-        </div>
-        <div class="wa-chat">
-          <div class="bubble in">Hola, ¿tienen mesa para esta noche?</div>
-          <div class="bubble out">¡Hola! Sí — ¿para cuántas personas?</div>
-          <div class="bubble in">Para 2, a las 8pm</div>
-          <div class="bubble out">Listo ✓ Mesa para 2 a las 8:00pm. ¿Algo más?</div>
-        </div>
-        <div class="wa-input"><span class="field" data-en="Message" data-es="Mensaje">Message</span><span class="mic"></span></div>
+  <!-- PRICING -->
+  <section id="pricing" class="section">
+    <div class="section-head reveal">
+      <div>
+        <p class="kicker"><span data-en="03 — PRICING" data-es="03 — PRECIOS">03 — PRICING</span></p>
+        <h2><span data-en="Simple pricing. " data-es="Precios simples. ">Simple pricing. </span><em data-en="No retainers." data-es="Sin letra pequeña.">No retainers.</em></h2>
+      </div>
+      <p class="section-note" data-en="Start free. Upgrade when it pays for itself." data-es="Empieza gratis. Sube de nivel cuando se pague solo.">Start free. Upgrade when it pays for itself.</p>
+    </div>
+    <div class="pricing-grid">
+      <div class="price-card reveal">
+        <p class="pname" data-en="EXPRESS AUDIT" data-es="AUDITORÍA EXPRESS">EXPRESS AUDIT</p>
+        <h3 data-en="Find your leaks" data-es="Encuentra tus fugas">Find your leaks</h3>
+        <p class="price"><span data-en="Free" data-es="Gratis">Free</span></p>
+        <p class="pdesc" data-en="A video teardown of your website or WhatsApp presence — what's broken, what to fix first." data-es="Un video analizando tu sitio web o tu WhatsApp — qué está roto, qué arreglar primero.">A video teardown of your website or WhatsApp presence — what's broken, what to fix first.</p>
+        <ul class="check-list">
+          <li data-en="Narrated video report" data-es="Video narrado con hallazgos">Narrated video report</li>
+          <li data-en="Prioritized fix list" data-es="Lista de soluciones priorizada">Prioritized fix list</li>
+          <li data-en="Delivered in 48 hours" data-es="Entrega en 48 horas">Delivered in 48 hours</li>
+        </ul>
+        <a class="btn btn-ghost" data-wa="1" data-wa-en="Hi Vulpis! I'd like a free express audit of my business." data-wa-es="¡Hola Vulpis! Quiero una auditoría express gratis de mi negocio." href="https://wa.me/51931768257" target="_blank" rel="noopener"><span data-en="Get my free audit" data-es="Quiero mi auditoría gratis">Get my free audit</span></a>
+      </div>
+      <div class="price-card featured reveal">
+        <p class="pname" data-en="VULPIS ESENCIAL" data-es="VULPIS ESENCIAL">VULPIS ESENCIAL</p>
+        <h3 data-en="Your AI closer" data-es="Tu cerrador IA">Your AI closer</h3>
+        <p class="price">S/899 <span class="per" data-en="starting price" data-es="precio inicial">starting price</span></p>
+        <p class="pdesc" data-en="Vulpis on your WhatsApp Business line — selling while you sleep." data-es="Vulpis en tu línea de WhatsApp Business — vendiendo mientras duermes.">Vulpis on your WhatsApp Business line — selling while you sleep.</p>
+        <ul class="check-list">
+          <li data-en="AI agent on your WhatsApp Business line" data-es="Agente IA en tu WhatsApp Business">AI agent on your WhatsApp Business line</li>
+          <li data-en="Replies in seconds, 24/7" data-es="Responde en segundos, 24/7">Replies in seconds, 24/7</li>
+          <li data-en="Lead qualification + objection handling" data-es="Calificación de leads + objeciones">Lead qualification + objection handling</li>
+          <li data-en="Meeting booking (Google Meet)" data-es="Agenda de reuniones (Google Meet)">Meeting booking (Google Meet)</li>
+          <li data-en="Payment links (Yape)" data-es="Links de pago (Yape)">Payment links (Yape)</li>
+          <li data-en="Human support, Mon–Sat" data-es="Soporte humano, Lun–Sáb">Human support, Mon–Sat</li>
+        </ul>
+        <a class="btn btn-primary" data-wa="1" data-wa-en="Hi Vulpis! I want Vulpis Esencial for my business." data-wa-es="¡Hola Vulpis! Quiero Vulpis Esencial para mi negocio." href="https://wa.me/51931768257" target="_blank" rel="noopener"><span data-en="Start on WhatsApp" data-es="Empezar por WhatsApp">Start on WhatsApp</span></a>
+      </div>
+      <div class="price-card reveal">
+        <p class="pname" data-en="CUSTOM BUILD" data-es="PROYECTO A MEDIDA">CUSTOM BUILD</p>
+        <h3 data-en="Software this solid" data-es="Software así de sólido">Software this solid</h3>
+        <p class="price"><span data-en="Let's talk" data-es="Conversemos">Let's talk</span></p>
+        <p class="pdesc" data-en="PROTOKOL-grade projects — offline PWAs, internal tools, integrations. Scoped and quoted per project." data-es="Proyectos nivel PROTOKOL — PWAs offline, herramientas internas, integraciones. Cotizado por proyecto.">PROTOKOL-grade projects — offline PWAs, internal tools, integrations. Scoped and quoted per project.</p>
+        <ul class="check-list">
+          <li data-en="Dedicated build, end to end" data-es="Desarrollo dedicado, integral">Dedicated build, end to end</li>
+          <li data-en="Production deployment included" data-es="Despliegue en producción incluido">Production deployment included</li>
+          <li data-en="Docs + handover" data-es="Documentación + entrega">Docs + handover</li>
+        </ul>
+        <a class="btn btn-ghost" data-wa="1" data-wa-en="Hi Vulpis! I'd like a quote for a custom project." data-wa-es="¡Hola Vulpis! Quiero una cotización para un proyecto a medida." href="https://wa.me/51931768257" target="_blank" rel="noopener"><span data-en="Ask for a quote" data-es="Pedir cotización">Ask for a quote</span></a>
       </div>
     </div>
-    <p class="shot-cap" data-en="LAS RONDAS — RESERVATIONS OVER WHATSAPP" data-es="LAS RONDAS — RESERVAS POR WHATSAPP">LAS RONDAS — RESERVATIONS OVER WHATSAPP</p>
-  </div>
-  <div class="card-body">
-    <p class="card-index">03 / 04</p>
-    <h3>LAS RONDAS</h3>
-    <p class="card-lede" data-en="A WhatsApp concierge for a Peruvian cevichería." data-es="Un concierge de WhatsApp para una cevichería peruana.">A WhatsApp concierge for a Peruvian cevichería.</p>
-    <p class="card-desc" data-en="Reservations, menu and opening hours — answered instantly, in Spanish, right inside WhatsApp. No apps to install, no calls missed." data-es="Reservas, carta y horarios — respondidos al instante, en español, dentro de WhatsApp. Sin apps que instalar, sin llamadas perdidas.">Reservations, menu and opening hours — answered instantly, in Spanish, right inside WhatsApp. No apps to install, no calls missed.</p>
-    <p class="card-meta">WHATSAPP · AUTOMATION · SPANISH-FIRST</p>
-    <p class="card-status"><span class="dot"></span><span data-en="BUILT FOR A LIMA RESTAURANT" data-es="HECHO PARA UN RESTAURANTE LIMEÑO">BUILT FOR A LIMA RESTAURANT</span></p>
-  </div>
-</article>
-
-
-    <!-- 04 AUDITS -->
-<article class="card flip reveal">
-  <div class="card-media">
-    <button class="shot play-btn" data-video="assets/video/llamitai-audit-video.mp4" aria-label="Play audit video">
-      <img src="assets/img/poster-audit.jpg" alt="Video audit of llamitai.com">
-      <span class="play-ring" aria-hidden="true"></span>
-    </button>
-    <p class="shot-cap" data-en="LLAMITAI.COM — VIDEO AUDIT · 87S" data-es="LLAMITAI.COM — AUDITORÍA EN VIDEO · 87S">LLAMITAI.COM — VIDEO AUDIT · 87S</p>
-  </div>
-  <div class="card-body">
-    <p class="card-index">04 / 04</p>
-    <h3 data-en="BUSINESS AUDITS" data-es="AUDITORÍAS">BUSINESS AUDITS</h3>
-    <p class="card-lede" data-en="We find what's broken, then fix it." data-es="Encontramos lo que está roto, y lo arreglamos.">We find what's broken, then fix it.</p>
-    <p class="card-desc" data-en="Full-stack audits of real businesses — dead buttons, broken forms, mobile failures — delivered as narrated video proof with a fix list. Fourteen issues found on one startup directory alone." data-es="Auditorías integrales de negocios reales — botones muertos, formularios rotos, fallos en móvil — entregadas en video narrado con lista de soluciones. Catorce problemas encontrados en un solo directorio de startups.">Full-stack audits of real businesses — dead buttons, broken forms, mobile failures — delivered as narrated video proof with a fix list. Fourteen issues found on one startup directory alone.</p>
-    <p class="card-meta" data-en="QA · UX · VIDEO REPORTS" data-es="QA · UX · REPORTES EN VIDEO">QA · UX · VIDEO REPORTS</p>
-    <p class="card-status"><span class="dot"></span><span data-en="WATCH A REAL AUDIT — 87S" data-es="MIRA UNA AUDITORÍA REAL — 87S">WATCH A REAL AUDIT — 87S</span></p>
-    <div class="card-links">
-      <button class="textlink play-btn" data-video="assets/video/llamitai-audit-video.mp4"><span data-en="Play the audit video →" data-es="Ver el video de auditoría →">Play the audit video →</span></button>
-    </div>
-  </div>
-</article>
-
   </section>
 
   <!-- STORY -->
   <section id="story" class="section story">
-    <p class="kicker reveal"><span data-en="02 — OUR STORY" data-es="02 — NUESTRA HISTORIA">02 — OUR STORY</span></p>
+    <p class="kicker reveal"><span data-en="04 — OUR STORY" data-es="04 — NUESTRA HISTORIA">04 — OUR STORY</span></p>
     <h2 class="reveal" data-en="Met on Reddit. Built on Discord." data-es="Nos conocimos en Reddit. Despegamos en Discord.">Met on Reddit. Built on Discord.</h2>
     <div class="story-cols">
       <div class="story-text reveal">
@@ -200,37 +223,15 @@
       <ol class="timeline reveal">
         <li><span class="tnum">01</span><div><h4 data-en="THE THREAD" data-es="EL HILO">THE THREAD</h4><p data-en="A Reddit post about building real software businesses. Kenny had the clients. Snehil had the code." data-es="Un post en Reddit sobre crear negocios de software reales. Kenny tenía los clientes. Snehil tenía el código.">A Reddit post about building real software businesses. Kenny had the clients. Snehil had the code.</p></div></li>
         <li><span class="tnum">02</span><div><h4>DISCORD</h4><p data-en="Idea calls turned into architecture calls. Our first paying client signed while we were still on voice chat." data-es="Las llamadas de ideas se volvieron llamadas de arquitectura. Nuestro primer cliente pagó mientras seguíamos en llamada de voz.">Idea calls turned into architecture calls. Our first paying client signed while we were still on voice chat.</p></div></li>
-        <li><span class="tnum">03</span><div><h4>KENNEXHUB</h4><p data-en="A two-man studio. Kenny runs the front — meetings, deals, trust. Snehil runs the engine — backend, tech, deployment." data-es="Un estudio de dos. Kenny lleva el frente — reuniones, tratos, confianza. Snehil lleva el motor — backend, tecnología, despliegue.">A two-man studio. Kenny runs the front — meetings, deals, trust. Snehil runs the engine — backend, tech, deployment.</p></div></li>
+        <li><span class="tnum">03</span><div><h4>VULPIS</h4><p data-en="A WhatsApp AI company. Kenny runs the front — meetings, deals, trust. Snehil runs the engine — backend, tech, deployment." data-es="Una empresa de IA en WhatsApp. Kenny lleva el frente — reuniones, tratos, confianza. Snehil lleva el motor — backend, tecnología, despliegue.">A WhatsApp AI company. Kenny runs the front — meetings, deals, trust. Snehil runs the engine — backend, tech, deployment.</p></div></li>
       </ol>
     </div>
   </section>
 
-  <!-- HOW WE WORK -->
-  <section class="section how">
-    <p class="kicker reveal"><span data-en="03 — HOW WE WORK" data-es="03 — CÓMO TRABAJAMOS">03 — HOW WE WORK</span></p>
-    <h2 class="reveal" data-en="Two people. Zero handoffs." data-es="Dos personas. Cero intermediarios.">Two people. Zero handoffs.</h2>
-    <div class="how-cols">
-      <div class="how-card reveal">
-        <p class="kicker-sm" data-en="KENNY — LIMA, PERU" data-es="KENNY — LIMA, PERÚ">KENNY — LIMA, PERU</p>
-        <h3 data-en="The front man" data-es="El frontman">The front man</h3>
-        <p data-en="Runs the meetings, closes the deals, owns client trust. He's the person clients talk to — and the reason they say yes." data-es="Dirige las reuniones, cierra los tratos, es dueño de la confianza del cliente. Es la persona con la que hablan los clientes — y la razón por la que dicen sí.">Runs the meetings, closes the deals, owns client trust. He's the person clients talk to — and the reason they say yes.</p>
-      </div>
-      <div class="how-card reveal">
-        <p class="kicker-sm" data-en="SNEHIL — INDIA" data-es="SNEHIL — INDIA">SNEHIL — INDIA</p>
-        <h3 data-en="The engine room" data-es="La sala de máquinas">The engine room</h3>
-        <p data-en="Backend, tech, deployment. Gets the job done end-to-end — then we accept full payment." data-es="Backend, tecnología, despliegue. Hace el trabajo de principio a fin — y luego aceptamos el pago completo.">Backend, tech, deployment. Gets the job done end-to-end — then we accept full payment.</p>
-      </div>
-    </div>
-    <blockquote class="quote reveal">
-      <p data-en="“The job isn't done until it's live and paid.”" data-es="“El trabajo no está terminado hasta que está en vivo y pagado.”">“The job isn't done until it's live and paid.”</p>
-      <cite data-en="— OUR ONLY PROCESS DOC" data-es="— NUESTRO ÚNICO DOCUMENTO DE PROCESO">— OUR ONLY PROCESS DOC</cite>
-    </blockquote>
-  </section>
-
   <!-- TEAM -->
   <section id="team" class="section team">
-    <p class="kicker reveal"><span data-en="04 — THE TEAM" data-es="04 — EL EQUIPO">04 — THE TEAM</span></p>
-    <h2 class="reveal" data-en="The people behind the work." data-es="La gente detrás del trabajo.">The people behind the work.</h2>
+    <p class="kicker reveal"><span data-en="05 — THE TEAM" data-es="05 — EL EQUIPO">05 — THE TEAM</span></p>
+    <h2 class="reveal" data-en="The humans behind the fox." data-es="Los humanos detrás del zorro.">The humans behind the fox.</h2>
     <div class="team-cols">
       <div class="team-card reveal">
         <img src="assets/img/kenny.jpg" alt="Kenny" width="168" height="168" loading="lazy">
@@ -250,11 +251,11 @@
 
   <!-- CONTACT -->
   <section id="contact" class="section contact">
-    <p class="kicker reveal"><span data-en="05 — CONTACT" data-es="05 — CONTACTO">05 — CONTACT</span></p>
+    <p class="kicker reveal"><span data-en="06 — CONTACT" data-es="06 — CONTACTO">06 — CONTACT</span></p>
     <h2 class="reveal"><span data-en="Let's build " data-es="Construyamos ">Let's build </span><em data-en="something that pays." data-es="algo que genere ingresos.">something that pays.</em></h2>
     <p class="contact-sub reveal" data-en="Tell us where your business leaks money. We'll find it, fix it, or automate it." data-es="Cuéntanos dónde pierde dinero tu negocio. Lo encontramos, lo arreglamos o lo automatizamos.">Tell us where your business leaks money. We'll find it, fix it, or automate it.</p>
     <div class="reveal">
-      <a class="btn btn-primary btn-lg" id="contact-wa" href="https://wa.me/51931768257?text=Hi%20KennexHub!%20I%20saw%20your%20portfolio%20and%20I%27d%20like%20to%20talk%20about%20a%20project." target="_blank" rel="noopener">
+      <a class="btn btn-primary btn-lg" id="contact-wa" data-wa="1" href="https://wa.me/51931768257" target="_blank" rel="noopener">
         <span data-en="Chat on WhatsApp — +51 931 768 257" data-es="Hablar por WhatsApp — +51 931 768 257">Chat on WhatsApp — +51 931 768 257</span>
       </a>
     </div>
@@ -268,8 +269,8 @@
 
 <footer class="footer">
   <div class="footer-inner">
-    <a class="brand" href="#top"><span>KennexHub</span></a>
-    <p>© 2026 KennexHub</p>
+    <a class="brand" href="index.html"><span>Vulpis</span></a>
+    <p>© 2026 Vulpis</p>
     <p class="mono-dim">LIMA × INDIA</p>
   </div>
 </footer>

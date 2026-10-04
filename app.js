@@ -3,14 +3,16 @@
 
   /* ---------- language toggle ---------- */
   var WA_TEXT = {
-    en: "Hi KennexHub! I saw your portfolio and I'd like to talk about a project.",
-    es: "¡Hola KennexHub! Vi su portafolio y quiero conversar sobre un proyecto."
+    en: "Hi Vulpis! I saw your site and I'd like to talk about a project.",
+    es: "¡Hola Vulpis! Vi su sitio y quiero conversar sobre un proyecto."
   };
-  var waLinks = [
-    document.getElementById("nav-wa"),
-    document.getElementById("hero-wa"),
-    document.getElementById("contact-wa")
-  ];
+  var waLinks = Array.prototype.slice.call(document.querySelectorAll("a[data-wa]"));
+
+  function waHrefFor(a, lang) {
+    var custom = a.getAttribute("data-wa-" + lang);
+    var text = encodeURIComponent(custom || WA_TEXT[lang] || WA_TEXT.en);
+    return "https://wa.me/51931768257?text=" + text;
+  }
 
   function setLang(lang) {
     document.documentElement.lang = lang;
@@ -21,11 +23,10 @@
     document.querySelectorAll(".lang-toggle button").forEach(function (b) {
       b.classList.toggle("active", b.getAttribute("data-lang") === lang);
     });
-    var text = encodeURIComponent(WA_TEXT[lang] || WA_TEXT.en);
     waLinks.forEach(function (a) {
-      if (a) a.href = "https://wa.me/51931768257?text=" + text;
+      a.href = waHrefFor(a, lang);
     });
-    try { localStorage.setItem("kennexhub-lang", lang); } catch (e) {}
+    try { localStorage.setItem("vulpis-lang", lang); } catch (e) {}
   }
 
   document.querySelectorAll(".lang-toggle button").forEach(function (b) {
@@ -33,7 +34,7 @@
   });
 
   var initial = "en";
-  try { initial = localStorage.getItem("kennexhub-lang") || "en"; } catch (e) {}
+  try { initial = localStorage.getItem("vulpis-lang") || localStorage.getItem("kennexhub-lang") || "en"; } catch (e) {}
   if (initial !== "en" && initial !== "es") initial = "en";
   setLang(initial);
 
