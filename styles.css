@@ -257,6 +257,13 @@ button.shot{font-family:inherit}
 .fact .flabel{font-family:var(--font-mono);font-size:12px;letter-spacing:.14em;color:var(--muted);margin-bottom:10px}
 .fact .fval{font-weight:600;font-size:16px;line-height:1.45}
 
+/* ---------- legal pages ---------- */
+.legal{max-width:840px}
+.legal h2{font-size:22px;font-weight:600;margin:44px 0 12px}
+.legal h2:first-child{margin-top:0}
+.legal p{color:var(--muted);font-size:16px;line-height:1.65;margin-bottom:14px}
+.legal a{color:var(--accent)}
+
 /* ---------- feature grid ---------- */
 .feature-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:28px;margin-top:52px}
 .feature{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:38px}
@@ -559,3 +566,11 @@ h2{font-size:clamp(34px,4vw,54px)}
 .nav .btn-sm{padding:11px 22px;font-size:14px}
 .dash-wrap{position:relative;max-width:1020px;margin:64px auto 0}
 .dash{margin:0}
+
+/* partner pricing: setup + monthly model */
+.usd-ref{font-family:var(--font-mono);font-size:12px;color:var(--muted);margin-top:6px;letter-spacing:.02em}
+.pmeta{font-size:13.5px;font-weight:600;color:var(--muted);margin-top:6px}
+.price-note{text-align:center;color:var(--muted);font-size:13.5px;margin:30px auto 0;max-width:660px}
+.price-card.featured .usd-ref{color:rgba(255,255,255,.8)}
+.price-card.featured .pmeta{color:#fff}
+.price-card.featured .price-note{color:inherit}
